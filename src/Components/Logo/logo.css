@@ -1,0 +1,13 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img{
+    width: 8rem;
+}
+
+span{
+    color: red;
+}
