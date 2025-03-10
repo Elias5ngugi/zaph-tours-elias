@@ -39,7 +39,7 @@
 .book{
     padding: 0.8rem 2rem;
     background-color: var(--primary-color);
-    color: var(--warning-color);
+    color: var(--background-color);
     border-radius: 5px;
     font-weight: 700;
     align-self: flex-end;
