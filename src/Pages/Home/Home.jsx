@@ -16,7 +16,7 @@ function Home() {
           className="hero-image" 
         />
         <div className="hero-text">
-          <h1>Explore the world with us</h1>
+          <h1 className='up'>Explore the world with us</h1>
           <p>Best safaris and adventures await you!</p>
           <button>Start Exploring</button> 
         </div>
@@ -91,8 +91,37 @@ function Home() {
           </div>
         </div>
         <div>
-          
+        <section class="testimonials-section">
+  <h2>What Our Travelers Say</h2>
+  <div class="testimonials-container">
+    <div class="testimonial-card">
+      <img src="src/assets/Elias.jpg" alt="John Doe" className='testimonial-img'/>
+      <blockquote>
+        <p>"Amazing Safari Experience"</p>
+        <p>Zaph Tours gave me an unforgettable trip. I saw beautiful animals, and the guides were very friendly and helpful.</p>
+        <cite>John Doe, USA</cite>
+      </blockquote>
+    </div>
+    <div class="testimonial-card">
+      <img src="src/assets/Elias.jpg" alt="Elias" className='testimonial-img'/>
+      <blockquote>
+        <p>"Best Adventure Ever"</p>
+        <p>Climbing Mount Kenya was a dream come true. The team made sure everything was safe and fun. I will come back again!</p>
+        <cite>Elias Ngugi, Kenya</cite>
+      </blockquote>
+    </div>
+    <div class="testimonial-card">
+      <img src="src/assets/Elias.jpg" alt="Francis" className='testimonial-img'/>
+      <blockquote>
+        <p>"A Perfect Safari"</p>
+        <p>I loved every moment of the safari. We saw the Big Five, and the views were amazing. The trip was well organized.</p>
+        <cite>Francis Muraya, Kenya</cite>
+      </blockquote>
+      </div>
         </div>
+       </section>
+        </div>
+        
       </div>
     </div>
   );

@@ -5,13 +5,13 @@
 }
 
 :root {
-  --primary-color: #1E6091; /* Deep Blue for trust and professionalism */
-  --secondary-color: #FFB703; /* Adventure Gold for energy and excitement */
-  --accent-color: #E63946; /* Bold Red for action and passion */
-  --background-color: #F1FAEE; /* Soft White for clean space */
-  --text-color: #1D3557; /* Dark Navy for readability */
-  --success-color: #2A9D8F; /* Teal Green for nature and positivity */
-  --warning-color: #E76F51; /* Sunset Orange for attention */
+  --primary-color: #1E6091; 
+  --secondary-color: #FFB703; 
+  --accent-color: #E63946; 
+  --background-color: #F1FAEE;
+  --text-color: #1D3557; 
+  --success-color: #2A9D8F;
+  --warning-color: #E76F51;
 }
 
 
@@ -32,5 +32,98 @@ body{
   font-size: 1.6rem;
   font-family: "Lora", serif
 }
+
+.header {
+  width: 100%;
+  background-color: var(--success-color);
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px; 
+}
+
+nav {
+  display: flex;
+  gap: 20px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #76b852; 
+}
+
+
+/* Responsive Design */
+
+/* Laptops and tablets */
+@media screen and (max-width: 1024px) {
+  .header-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .header-navigation {
+      flex-direction: column;
+      gap: 1rem;
+  }
+
+  .header-nav-list {
+      flex-direction: column;
+      gap: 1rem;
+  }
+
+  .book {
+      align-self: center;
+  }
+}
+
+/* Tablets and larger phones */
+@media screen and (max-width: 768px) {
+  .logo img {
+      width: 6rem;
+  }
+
+  .header-nav-list {
+      gap: 1rem;
+  }
+
+  .li {
+      font-size: 1.2rem;
+  }
+
+  .book {
+      padding: 0.5rem 1.5rem;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+  .logo img {
+      width: 4rem;
+  }
+
+  .header-nav-list {
+      gap: 0.5rem;
+  }
+
+  .li {
+      font-size: 1rem;
+  }
+
+  .book {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
 
 
