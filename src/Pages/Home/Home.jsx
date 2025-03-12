@@ -14,6 +14,7 @@ function Home() {
           src={coastalKenya} 
           alt="Safari Adventure" 
           className="hero-image" 
+          loading="lazy" 
         />
         <div className="hero-text">
           <h1 className='up'>Explore the world with us</h1>
@@ -41,7 +42,7 @@ function Home() {
         <h2>Featured Destinations</h2>
         <div className="destinations-grid">
           <div className="destination-card">
-            <img src={mtKenya} alt="Mt. Kenya" />
+            <img src={mtKenya} alt="Mt. Kenya" loading="lazy" />
             <h3>Mt. Kenya</h3>
             <p>
                A majestic peak standing tall as Africa’s second-highest mountain, perfect for hiking and wildlife spotting.
@@ -50,7 +51,7 @@ function Home() {
             
           </div>
           <div className="destination-card">
-            <img src={ruwenzori} alt="Mt. Ruwenzori" />
+            <img src={ruwenzori} alt="Mt. Ruwenzori" loading="lazy"/>
             <h3>Mt. Ruwenzori</h3>
             <p>
                Known as the "Mountains of the Moon," this lush, mist-covered range offers stunning landscapes and unique flora.
@@ -66,7 +67,7 @@ function Home() {
             <p>Starting from Ksh5,000</p>
           </div>
           <div className="destination-card">
-            <img src={tsavo} alt="Tsavo National Park" />
+            <img src={tsavo} alt="Tsavo National Park" loading="lazy"/>
             <h3>Tsavo National Park</h3>
             <p>
                One of Kenya’s largest parks, home to diverse wildlife including elephants, lions, and dramatic volcanic landscapes.
@@ -74,7 +75,7 @@ function Home() {
             <p>Starting from Ksh5,000</p>
           </div>
           <div className="destination-card">
-            <img src={nairobiPark} alt="Nairobi National Park" />
+            <img src={nairobiPark} alt="Nairobi National Park" loading="lazy"/>
             <h3>Nairobi National Park</h3>
             <p>
                A unique safari experience just outside the capital city, where you can spot wildlife against a city skyline.
@@ -82,7 +83,7 @@ function Home() {
             <p>Starting from Ksh3,000</p>
           </div>
           <div className="destination-card">
-            <img src={coastalKenya} alt="Coastal Kenya" />
+            <img src={coastalKenya} alt="Coastal Kenya" loading="lazy"/>
             <h3>Coastal Kenya</h3>
             <p>
                White sandy beaches, turquoise waters, and a rich Swahili culture make this an idyllic tropical getaway.
@@ -95,7 +96,7 @@ function Home() {
   <h2>What Our Travelers Say</h2>
   <div class="testimonials-container">
     <div class="testimonial-card">
-      <img src="src/assets/Elias.jpg" alt="John Doe" className='testimonial-img'/>
+      <img src="src/assets/Elias.jpg" alt="John Doe" className='testimonial-img' loading="lazy"/>
       <blockquote>
         <p>"Amazing Safari Experience"</p>
         <p>Zaph Tours gave me an unforgettable trip. I saw beautiful animals, and the guides were very friendly and helpful.</p>
@@ -103,7 +104,7 @@ function Home() {
       </blockquote>
     </div>
     <div class="testimonial-card">
-      <img src="src/assets/Elias.jpg" alt="Elias" className='testimonial-img'/>
+      <img src="src/assets/Elias.jpg" alt="Elias" className='testimonial-img' loading="lazy"/>
       <blockquote>
         <p>"Best Adventure Ever"</p>
         <p>Climbing Mount Kenya was a dream come true. The team made sure everything was safe and fun. I will come back again!</p>
@@ -111,7 +112,7 @@ function Home() {
       </blockquote>
     </div>
     <div class="testimonial-card">
-      <img src="src/assets/Elias.jpg" alt="Francis" className='testimonial-img'/>
+      <img src="src/assets/Elias.jpg" alt="Francis" className='testimonial-img' loading="lazy"/>
       <blockquote>
         <p>"A Perfect Safari"</p>
         <p>I loved every moment of the safari. We saw the Big Five, and the views were amazing. The trip was well organized.</p>

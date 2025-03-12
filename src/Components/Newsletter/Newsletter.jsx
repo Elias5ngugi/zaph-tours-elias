@@ -5,7 +5,7 @@ function Newsletter() {
   return (
     <div>
         <div>
-        <section class="newsletter-section">
+        <section className="newsletter-section">
             <h2>Stay Updated with Zaph Tours</h2>
             <p>Sign up for our newsletter and get weekly updates on the best safaris and adventure spots!</p>
   

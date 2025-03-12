@@ -7,10 +7,9 @@ function ContactUs() {
       
       <div className="contact-form">
         <h2>Send Us a Message</h2>
-        <form>
+        <form className='form'>
           <input type="text" placeholder="Name" required />
           <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Subject" />
           <textarea placeholder="Message" rows="6" required></textarea>
           <button type="submit">Send Message</button>
         </form>
