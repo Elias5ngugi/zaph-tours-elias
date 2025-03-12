@@ -9,6 +9,10 @@ import ContactUs from "./Pages/Contact-us/Contact";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Footer from "./Components/Footer/Footer";
 
+
+
+
+
 function App() {
   return (
     <>
@@ -26,7 +30,6 @@ function App() {
       </Routes>
       <Newsletter />
       <Footer/>
-      <h1>Welcome to Zaph Tours</h1>
     </>
   );
 }

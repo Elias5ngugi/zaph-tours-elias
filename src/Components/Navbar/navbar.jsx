@@ -21,6 +21,7 @@ function Navbar() {
       </ol>
     </nav>
     <a href="" className='book'>Book us</a>
+   
     </div>
     
   )

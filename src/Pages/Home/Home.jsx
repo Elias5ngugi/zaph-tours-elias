@@ -1,8 +1,8 @@
 import './Home.css';
-import coastalKenya from '../../assets/Costal-kenya.jpg'; // Double-check if the file name should be "Coastal-kenya.jpg"
+import coastalKenya from '../../assets/Costal-kenya.jpg';
 import mtKenya from '../../assets/mt-kenya.jpg';
 import ruwenzori from '../../assets/mt-ruwenzori.jpg';
-import lakeNakuru from '../../assets/Lake-nakuru.jpg'; // Fixed variable name
+import lakeNakuru from '../../assets/Lake-nakuru.jpg'; 
 import tsavo from '../../assets/Tsavo-national-park.jpg';
 import nairobiPark from '../../assets/Nairobi-national-park.jpg';
 
@@ -18,7 +18,7 @@ function Home() {
         <div className="hero-text">
           <h1 className='up'>Explore the world with us</h1>
           <p>Best safaris and adventures await you!</p>
-          <button>Start Exploring</button> 
+          <button>Start Exploring</button>
         </div>
       </div>
 
